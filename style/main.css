@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+/* Static Nav Bar */
+
+nav{
+    position:fixed;
+    width:100%;
+    top:0px;
+}
+ 
+nav ul{
+    text-align: center;   
+}
+nav li{
+    display:inline;
+    border-right:2px solid black;
+    border-left:2px solid black;
+}
+/* about_scannar */
+#about_scannar{
+    margin-top:60px;
+    text-align: center;
+}
+
+#about_scannar i{
+    font-size:20px;
+}
