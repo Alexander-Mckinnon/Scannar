@@ -8,8 +8,14 @@ nav{
     position:fixed;
     width:100%;
     top:0px;
+    height:40px;
+    background-color:azure;
+    opacity: .5; 
 }
  
+nav:hover{
+    opacity:1;
+}
 nav ul{
     text-align: center;   
 }
@@ -18,12 +24,56 @@ nav li{
     border-right:2px solid black;
     border-left:2px solid black;
 }
-/* about_scannar */
+#top_pic{
+    background-image: url("/pictures/augmented_reality.jpg");
+    background-repeat: no-repeat;
+    height:300px;
+    margin-top:40px;
+    text-align: center;
+    background-position: center; 
+}
+#top_pic h3{
+    padding-top:180px;
+   
+    
+}
+/* about_scannar and middle pic */
+#main{
+      overflow:hidden;
+}
 #about_scannar{
+    width:50%;
     margin-top:60px;
     text-align: center;
+    float:left; 
+    
 }
 
 #about_scannar i{
     font-size:20px;
+}
+
+#middle_pic{
+    width:35%;
+    float:right;
+    margin-top:60px;
+}
+#middle_pic img{
+   width:100%;
+}
+
+/* The Team */
+#team header{
+    text-align: center;
+}
+ #gp_singh, #amit_singh{
+    width:50%;
+     text-align: center;
+}
+
+#gp_singh{
+    float:left;
+}
+#amit_singh{
+    float:right;
 }
