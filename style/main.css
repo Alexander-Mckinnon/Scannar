@@ -25,7 +25,7 @@ nav li{
     border-left:2px solid black;
 }
 #top_pic{
-    background-image: url("/pictures/augmented_reality.jpg");
+    background-image: url("../pictures/augmented_reality.jpg");
     background-repeat: no-repeat;
     height:300px;
     margin-top:40px;
