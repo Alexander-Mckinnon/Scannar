@@ -63,17 +63,36 @@ nav li{
 }
 
 /* The Team */
+
 #team header{
     text-align: center;
 }
  #gp_singh, #amit_singh{
     width:50%;
-     text-align: center;
 }
 
 #gp_singh{
     float:left;
+    width:33.33%;
+    text-align: center;
+}
+
+#gp_singh img{
+    height:250px;
+    width:350px;
 }
 #amit_singh{
     float:right;
+    text-align: center;
+    width:33.33%;
+}
+#dadi{
+    margin:auto;
+    width:33.33%;
+    text-align: center; 
+}
+
+#dadi img{
+    height:250px;
+    width:350px;
 }
